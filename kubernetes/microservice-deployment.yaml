@@ -1,0 +1,21 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  labels:
+    name: microservice
+  name: microservice-deployment
+spec:
+  replicas: 2
+  selector:
+    name: microservice
+  template:
+    metadata:
+      labels:
+        name: microservice
+    spec:
+      containers:
+      - image: <YOUR-CONTAINER>
+        name: microservice
+        ports:
+        - containerPort: microservice
+          name: http-server
