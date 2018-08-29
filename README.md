@@ -203,9 +203,9 @@ Get the Port:
 
 `kubectl get svc istio-ingress`
 
-Go to the URL: http://<IP>:<PORT>/headers
+Go to the URL: http://IP:PORT/headers
 
-[Kubernetes][https://kubernetes.io]
-[Calico][http://docs.projectcalico.org/v2.2/getting-started/kubernetes/installation/hosted/kubeadm/]
-[Istio][https://istio.io/docs/tasks/installing-istio.html]
-[Terraform][https://github.com/hashicorp/terraform/tree/master/examples]
+* [Kubernetes](https://kubernetes.io)
+* [Calico](http://docs.projectcalico.org/v2.2/getting-started/kubernetes/installation/hosted/kubeadm/)
+* [Istio](https://istio.io/docs/tasks/installing-istio.html)
+* [Terraform][https://github.com/hashicorp/terraform/tree/master/examples]
